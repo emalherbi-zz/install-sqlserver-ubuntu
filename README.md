@@ -40,7 +40,7 @@ sqlcmd -S localhost -U SA -P '<YourPassword>' -Q "RESTORE DATABASE DATABASE FROM
 
 Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.
 
-[DBeaver](https://dbeaver.jkiss.org/)
+Download: [DBeaver](https://dbeaver.jkiss.org/)
 
 > Linux Debian package 64 bit or 
 > Linux Debian package 32 bit
