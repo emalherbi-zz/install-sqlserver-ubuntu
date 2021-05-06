@@ -29,11 +29,11 @@ chmod -R 777 /var/opt/mssql/data/
 ```
 
 ```bash
-mv ~/Downloads/DATABASE.bk2 /var/opt/mssql/data/
+mv ~/Downloads/DBTEST.bk2 /var/opt/mssql/data/
 ```
 
 ```bash
-sqlcmd -S localhost -U SA -P '<YourPassword>' -Q "RESTORE DATABASE DATABASE FROM DISK = N'/var/opt/mssql/data/DATABASE.bk2' WITH RECOVERY, MOVE N'database_data' TO N'/var/opt/mssql/data/DATABASE_DATA.MDF', MOVE N'database_log' TO N'/var/opt/mssql/data/DATABASE_LOG.LDF'"
+sqlcmd -S localhost -U SA -P '<YourPassword>' -Q "RESTORE DATABASE DBTEST FROM DISK = N'/var/opt/mssql/data/DBTEST.bk2' WITH RECOVERY, MOVE N'DBTEST_DATA' TO N'/var/opt/mssql/data/DBTEST_DATA.MDF', MOVE N'DBTEST_LOG' TO N'/var/opt/mssql/data/DBTEST_LOG.LDF'"
 ```
 
 ## Install database tool
