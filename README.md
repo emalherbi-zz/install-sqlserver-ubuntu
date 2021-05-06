@@ -25,11 +25,11 @@ GO
 ## Restore a database
 
 ```bash
-chmod -R 777 /opt/var/mssql/data/
+chmod -R 777 /var/opt/mssql/data/
 ```
 
 ```bash
-mv ~/Downloads/DATABASE.bk2 /opt/var/mssql/data/
+mv ~/Downloads/DATABASE.bk2 /var/opt/mssql/data/
 ```
 
 ```bash
